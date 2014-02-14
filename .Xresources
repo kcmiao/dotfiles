@@ -1,0 +1,49 @@
+! xft + font settings
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    slight
+Xft.lcdfilter:  lcddefault
+
+URxvt*font:     xft:Termsyn:style=Regular:size=14
+URxvt*boltFont: xft:Termsyn:style=Bold:size=14
+
+! URxvt*font:     xft:Inconsolata:size=10:antialias=true:hinting=none
+! URxvt*boldFont: xft:Inconsolata:bold:size=10:antialias=true:hinting=none
+
+! Transparency
+URxvt*depth: 32
+URxvt*background: [85]#121212
+URxvt*foreground: #eddcd3
+URxvt*cursorColor: #eddcd3
+
+URxvt*cursorBlink: true
+
+! No scrollbar
+URxvt*scrollBar: false
+
+! black
+URxvt*color0  : #454545
+URxvt*color8  : #656565
+! ! red
+URxvt*color1  : #bf3f34
+URxvt*color9  : #ef545f
+! ! green
+URxvt*color2  : #705d22
+URxvt*color10 : #b8aa4b
+! ! yellow
+URxvt*color3  : #c7a417
+URxvt*color11 : #dcc670
+! ! blue
+URxvt*color4  : #627a92
+URxvt*color12 : #88a1ba
+! ! magenta
+URxvt*color5  : #917154
+URxvt*color13 : #989584
+! ! cyan
+URxvt*color6  : #767d75
+URxvt*color14 : #9da69e
+! ! white
+URxvt*color7  : #c2c2a8
+URxvt*color15 : #dbdac1
+
