@@ -1,0 +1,17 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/usr/share/themes/MediterraneanNightDarkest/gtk-2.0/gtkrc"
+include "/usr/share/icons/Faience"
+
+style "user-font" {
+	font_name = "Droid Sans 8"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="Droid Sans 8"
+gtk-icon-theme-name="Faience"
+
+include "/home/cats/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+
