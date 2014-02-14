@@ -148,6 +148,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status -c "~/.i3/i3status.conf"
         position top
+        font xft:Termsyn 14px
         colors {
             background #121212
             statusline #eddcd3
@@ -159,12 +160,19 @@ bar {
         }
 }
 
+# Custom bindings and settings...
+
 client.focused          #121212 #454545 #eddcd3 #88a1ba
 client.focused_inactive #121212 #202020 #eddcd3 #121212
 client.unfocused        #121212 #202020 #eddcd3 #121212
 client.urgent           #2f343a #ef545f #121212 #121212
 
+# font xft:GohuFont 14px
 font xft:Termsyn 14px
+exec feh --bg-fill ~/.wallpaper.png
 
-# exec --no-startup-id nm-applet
-exec pa-applet
+bindsym XF86AudioMute exec "pactl set-sink-mute 1 toggle"
+bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume 1 +1%"
+bindsym XF86AudioLowerVolume exec "pactl set-sink-volume 1 -- -1%"
+
+bindsym $mod+Shift+t exec "i3lock -i ~/.wallpaper.png"
