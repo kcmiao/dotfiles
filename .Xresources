@@ -13,7 +13,8 @@ URxvt*boldFont: xft:Termsyn:style=Bold:size=14
 !URxvt*boldFont: xft:Inconsolata:bold:size=10:antialias=true:hinting=none
 
 ! cursor settings
-Xcursor.theme: OpenZone_Black_Slim
+Xcursor.theme: Neutral_Plus
+!Xcursor.theme: OpenZone_Black_Slim
 
 ! Transparency
 URxvt*.depth: 32

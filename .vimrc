@@ -28,8 +28,9 @@ set hidden
 syntax on
 
 " Theme settings
-set background=dark
 colorscheme molokai
+set background=dark
+let g:molokai_original=1
 
 " Forgetting to sudo...
 cmap w!! w !sudo tee > /dev/null %
@@ -65,7 +66,7 @@ endif
 " ================ Indentation ======================
 
 set autoindent
-set smartindent
+" set smartindent
 set smarttab
 set shiftwidth=4
 set softtabstop=4
